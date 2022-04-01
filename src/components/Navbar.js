@@ -1,11 +1,9 @@
 import IconButtons from "./CartWidget"
-import ItemListContainer from "./ItemListContainer";
 
 const Navbar = () =>{
     return (
         <div>
             <header className="container-fluid">
-
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
 <div className="container-fluid">
     <a className="navbar-brand" href="#">DISPENSARIO DE BEBIDAS</a>
@@ -32,9 +30,6 @@ const Navbar = () =>{
     <div><IconButtons /></div>
 </nav>
 </header>
-<main>
-    <ItemListContainer />
-</main>
     </div>
     );
 }
