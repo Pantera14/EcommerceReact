@@ -8,7 +8,7 @@ const ItemCount = ({ stock = 5, initial = 1,  onAdd }) => {
 
     useEffect(() => {
         setCount(initial);
-    },[]);
+    },[initial]);
 
     const increment = () => {
         if (count < stock) {

@@ -1,12 +1,13 @@
 import { DescriptionOutlined, InfoOutlined, LocalOfferOutlined } from '@mui/icons-material';
 import { ProductContainer, Circle, Image, Info, Icon } from './styledComponents';
 
-const Item = ({ stock, price, pictureUrl }) => {
+const Item = ({ name, stock, price, pictureUrl }) => {
     return (
         <ProductContainer>
             <Circle />
             <Image src={pictureUrl} />
             <Info>
+                <Icon><strong>{name}</strong></Icon>
                 <Icon>
                     <LocalOfferOutlined /><strong>$ {price}</strong>
                 </Icon>

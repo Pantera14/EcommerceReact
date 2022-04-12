@@ -5,8 +5,9 @@ const Navbar = () =>{
         <div>
             <header className="container-fluid">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
+
 <div className="container-fluid">
-    <a className="navbar-brand" href="#">DISPENSARIO DE BEBIDAS</a>
+    <a className="navbar-brand">DISPENSARIO DE BEBIDAS</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
     </button>
